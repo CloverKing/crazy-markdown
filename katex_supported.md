@@ -1,3 +1,25 @@
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+<!-- code_chunk_output -->
+
+* [Supported Functions](#supported-functions)
+	* [Accents](#accents)
+	* [Delimiters](#delimiters)
+	* [Environments](#environments)
+	* [HTML](#html)
+	* [Letters and Unicode](#letters-and-unicode)
+	* [Layout](#layout)
+	* [Logic and Set Theory](#logic-and-set-theory)
+	* [Macros](#macros)
+	* [Operators](#operators)
+	* [Relations](#relations)
+	* [Style, Color, Size, and Font](#style-color-size-and-font)
+	* [Symbols and Punctuation](#symbols-and-punctuation)
+	* [Units](#units)
+
+<!-- /code_chunk_output -->
+
+
 ##Supported Functions
 
 This is a list of TeX functions supported by KaTeX. It is sorted into logical groups.
