@@ -1,8 +1,16 @@
+##Supported Functions
+
+This is a list of TeX functions supported by KaTeX. It is sorted into logical groups.
+
+There is a similar Support Table, sorted alphabetically, that lists both supported and un-supported functions.
+
+###Table Of Content
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 <!-- code_chunk_output -->
 
 * [Supported Functions](#supported-functions)
+	* [Table Of Content](#table-of-content)
 	* [Accents](#accents)
 	* [Delimiters](#delimiters)
 	* [Environments](#environments)
@@ -19,13 +27,6 @@
 
 <!-- /code_chunk_output -->
 
-
-##Supported Functions
-
-This is a list of TeX functions supported by KaTeX. It is sorted into logical groups.
-
-There is a similar Support Table, sorted alphabetically, that lists both supported and un-supported functions.
-
 ###Accents
 |||||||
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -36,14 +37,14 @@ There is a similar Support Table, sorted alphabetically, that lists both support
 |$\ddot{a}$<br>`\ddot{a}`|$\underleftrightarrow{AB}$<br>`\underleftrightarrow{AB}`|$\underbrace{AB}$<br>`\underbrace{AB}`|$\grave{a}$<br>`\grave{a}`|$\overline{AB}$<br>`\overline{AB}`|$\overlinesegment{AB}$<br>`\overlinesegment{AB}`|
 |$\hat{\theta}$<br>`\hat{\theta}`|$\underline{AB}$<br>`\underline{AB}`|$\underlinesegment{AB}$<br>`\underlinesegment{AB}`|$\widehat{ac}$<br>`\widehat{ac}`|$\widecheck{ac}$<br>`\widecheck{ac}`|-|
 
-***Accent functions inside \\text{…}***
+**Accent functions inside \\text{…}**
 |||||
 |:---:|:---:|:---:|:---:|
 |$\text{\'{a}}$<br>`\'{a}`|$\text{\~{a}}$<br>`\~{a}`|$\text{\.{a}}$<br>`\.{a}`|$\text{\H{a}}$<br>`\H{a}`|
 |$\text{\`{a}}$<br><code>\\&apos;{a}<code>|$\text{\={a}}$<br>`\={a}`|$\text{\"{a}}$<br>`\"{a}`|$\text{\v{a}}$<br>`\v{a}`|
 |$\text{\^{a}}$<br>`\^{a}`|$\text{\u{a}}$<br>`\u{a}`|$\text{\r{a}}$<br>`\r{a}`|-|
 
-See also [letters](#letters)
+See also [letters](#letters-and-unicode)
 
 ###Delimiters
 ||||||
