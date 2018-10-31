@@ -1,10 +1,10 @@
-##Supported Functions
+## Supported Functions
 
 This is a list of TeX functions supported by KaTeX. It is sorted into logical groups.
 
 There is a similar Support Table, sorted alphabetically, that lists both supported and un-supported functions.
 
-###Table Of Content
+### Table Of Content
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 <!-- code_chunk_output -->
@@ -27,7 +27,7 @@ There is a similar Support Table, sorted alphabetically, that lists both support
 
 <!-- /code_chunk_output -->
 
-###Accents
+### Accents
 |||||||
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |$a'$<br>`a'`|$\tilde{a}$<br>`\tilde{a}`|$\mathring{g}$<br>`\mathring{g}`|$a''$<br>`a''`|$\widetilde{ac}$<br>`\widetilde{ac}`|$\overgroup{AB}$<br>`\overgroup{AB}`|
@@ -46,7 +46,7 @@ There is a similar Support Table, sorted alphabetically, that lists both support
 
 See also [letters](#letters-and-unicode)
 
-###Delimiters
+### Delimiters
 ||||||
 |:---:|:---:|:---:|:---:|:---:|
 |$( )$<br>`( )`|$\lt \gt$<br>`\lt \gt`|$⌈ ⌉$<br>`⌈ ⌉`|$\lceil \rceil$<br>`\lceil \rceil`|$\uparrow$<br>`\uparrow`|
@@ -71,7 +71,7 @@ $( \big( \Big( \bigg( \Bigg($ `( \big( \Big( \bigg( \Bigg(`
 |`\right`|`\bigg`|`\biggl`|`\biggm`|`\biggr`|
 |-|`\Bigg`|`\Biggl`|`\Biggm`|`\Biggr`|
 
-###Environments
+### Environments
 |||||
 |:---------------------|:---------------------|:---------------------|:--------
 |$\begin{matrix} a & b \\ c & d \end{matrix}$|`\begin{matrix}`<br>&nbsp;&nbsp;&nbsp;`a & b \\`<br>&nbsp;&nbsp;&nbsp;`c & d`<br>`\end{matrix}`|$\begin{array}{cc}a & b\\c & d\end{array}$|`\begin{array}{cc}`<br>&nbsp;&nbsp;&nbsp;`a & b \\`<br>&nbsp;&nbsp;&nbsp;`c & d`<br>`\end{array}`
@@ -89,13 +89,13 @@ The `{array}` environment supports `|` and `:` vertical separators.
 
 The `{array}` environment does not yet support `\cline` or `\multicolumn`.
 
-###HTML
+### HTML
 |||
 |:---|:---|
 |$\href{https://katex.org/}{\KaTeX}$|`\href{https://katex.org/}{\KaTeX}`|
 |$\url{https://katex.org/}$|`\url{https://katex.org/}`|
 
-###Letters and Unicode
+### Letters and Unicode
 
 **Greek Letters**
 
@@ -155,7 +155,7 @@ If the KaTeX rendering mode is set to `strict: false` or `strict:"warn"` (de
 
 For Persian composite characters, a user-supplied [plug-in](https://github.com/HosseinAgha/persian-katex-plugin) is under development.
 
-###Layout
+### Layout
 
 **Annotation**
 |||
@@ -222,7 +222,7 @@ KaTeX also supports `\llap`, `\rlap`, and `\clap`, but they will take only text,
 
 `\mkern` and `\mskip` will not work in text mode and both will write a console warning for any unit except `mu`.
 
-###Logic and Set Theory
+### Logic and Set Theory
 |||||
 |:---|:---|:---|:---|
 |$\forall$ `\forall`|$\complement$ `\complement`|$\therefore$ `\therefore`|$\emptyset$ `\emptyset`|
@@ -235,7 +235,7 @@ KaTeX also supports `\llap`, `\rlap`, and `\clap`, but they will take only text,
 
 Direct Input: $∀ ∴ ∁ ∵ ∃ ∣ ∈ ∉ ∋ ⊂ ⊃ ∧ ∨ ↦ → ← ↔ ¬ ℂ ℍ ℕ ℙ ℚ ℝ$
 
-###Macros
+### Macros
 |||
 |:---|:---|
 |$\def\foo{x^2} \foo + \foo$|`\def\foo{x^2} \foo + \foo`|
@@ -257,7 +257,7 @@ Available functions include:
 
 @ is a valid character for commands, as if `\makeatletter` were in effect.
 
-###Operators
+### Operators
 **Big Operators**
 |||||
 |---|---|---|---|
@@ -327,7 +327,7 @@ $\sqrt{x}$ `\sqrt{x}`
 
 $\sqrt[3]{x}$ `\sqrt[3]{x}`
 
-###Relations
+### Relations
 
 $\stackrel{!}{=}$ `\stackrel{!}{=}`
 |||||
@@ -442,7 +442,7 @@ Direct Input: $← ↑ → ↓ ↔ ↕ ↖ ↗ ↘ ↙ ↚ ↛ ↞ ↠ ↢ ↣ �
 
 Extensible arrows all can take an optional argument in the same manner as `\xrightarrow[under]{over}`.
 
-###Style, Color, Size, and Font
+### Style, Color, Size, and Font
 
 **Class Assignment**
 
@@ -502,7 +502,7 @@ In cases where KaTeX fonts do not have a bold glyph, `\pmb` can simulate one. Fo
 
 `\text{…}` will accept nested `$…$` fragments and render them in math mode.
 
-###Symbols and Punctuation
+### Symbols and Punctuation
 ||||
 |:---|:---|:---|
 |`% comment`|$\dots$ `\dots`|$\KaTeX$ `\KaTeX`|
@@ -545,7 +545,7 @@ In cases where KaTeX fonts do not have a bold glyph, `\pmb` can simulate one. Fo
 
 Direct Input: $£ ¥ ∇ ∞ · ∠ ∡ ∢ ♠ ♡ ♢ ♣ ♭ ♮ ♯ ✓ …  ⋮  ⋯  ⋱  !$ ‼
 
-###Units
+### Units
 
 In KaTeX, units are proportioned as they are in TeX.
 KaTeX units are different than CSS units.
