@@ -6,14 +6,14 @@ This cheat sheet is automatically generated from [GitHub Emoji API](https://api.
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 <!-- code_chunk_output -->
 
-* [emoji-cheat-sheet](#emoji-cheat-sheet)
-	* [Table Of Content](#table-of-content)
-	* [People](#people)
-	* [Nature](#nature)
-	* [Objects](#objects)
-	* [Places](#places)
-	* [Symbols](#symbols)
-	* [Uncategorized](#uncategorized)
++ [emoji-cheat-sheet](#emoji-cheat-sheet)
+	+ [Table Of Content](#table-of-content)
+	+ [People](#people)
+	+ [Nature](#nature)
+	+ [Objects](#objects)
+	+ [Places](#places)
+	+ [Symbols](#symbols)
+	+ [Uncategorized](#uncategorized)
 
 <!-- /code_chunk_output -->
 
