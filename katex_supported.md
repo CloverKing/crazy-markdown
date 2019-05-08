@@ -9,21 +9,21 @@ There is a similar Support Table, sorted alphabetically, that lists both support
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 <!-- code_chunk_output -->
 
-* [Supported Functions](#supported-functions)
-	* [Table Of Content](#table-of-content)
-	* [Accents](#accents)
-	* [Delimiters](#delimiters)
-	* [Environments](#environments)
-	* [HTML](#html)
-	* [Letters and Unicode](#letters-and-unicode)
-	* [Layout](#layout)
-	* [Logic and Set Theory](#logic-and-set-theory)
-	* [Macros](#macros)
-	* [Operators](#operators)
-	* [Relations](#relations)
-	* [Style, Color, Size, and Font](#style-color-size-and-font)
-	* [Symbols and Punctuation](#symbols-and-punctuation)
-	* [Units](#units)
+- [Supported Functions](#supported-functions)
+	- [Table Of Content](#table-of-content)
+	- [Accents](#accents)
+	- [Delimiters](#delimiters)
+	- [Environments](#environments)
+	- [HTML](#html)
+	- [Letters and Unicode](#letters-and-unicode)
+	- [Layout](#layout)
+	- [Logic and Set Theory](#logic-and-set-theory)
+	- [Macros](#macros)
+	- [Operators](#operators)
+	- [Relations](#relations)
+	- [Style, Color, Size, and Font](#style-color-size-and-font)
+	- [Symbols and Punctuation](#symbols-and-punctuation)
+	- [Units](#units)
 
 <!-- /code_chunk_output -->
 
@@ -543,7 +543,7 @@ In cases where KaTeX fonts do not have a bold glyph, `\pmb` can simulate one. Fo
 |$\text{\textcircled a}$ `\text{\textcircled a}`|$\diamonds$ `\diamonds`|$\hearts$ `\hearts`|
 |$\maltese$ `\maltese`|$\spadesuit$ `\spadesuit`|$\spades$ `\spades`|
 
-Direct Input: $£ ¥ ∇ ∞ · ∠ ∡ ∢ ♠ ♡ ♢ ♣ ♭ ♮ ♯ ✓ …  ⋮  ⋯  ⋱  !$ ‼
+Direct Input: $£ ¥ ∇ ∞ · ∠ ∡ ∢ ♠ ♡ ♢ ♣ ♭ ♮ ♯ ✓ … ⋮ ⋯ ⋱ ! ‼$
 
 ### Units
 
